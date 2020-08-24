@@ -1,6 +1,6 @@
 ![MIKES DATA WORK GIT REPO](https://raw.githubusercontent.com/mikesdatawork/images/master/Mikes_Data_Work_Header_890x170.png "Mikes Data Work")        
 
-# Use SQL To Generate HTML Email Alert For Drive Space
+# Use SQL To Generate HTML Email Alerts For Drive Space
 **Post Date: August 24, 2020**
 
 
