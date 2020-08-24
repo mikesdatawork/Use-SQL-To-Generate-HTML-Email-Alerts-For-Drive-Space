@@ -613,7 +613,7 @@ if exists(select top 1 [capacity] from @drive_space where [capacity] = 'Warning:
     begin
         exec    msdb.dbo.sp_send_dbmail
                 @PROFILE_NAME   = 'SQLAlerts'
-            ,   @RECIPIENTS = 'DatabaseSQLGroup@MyDomain.com'
+            ,   @RECIPIENTS = 'DatabaseGroupSQL@MyDomain.com'
             ,   @SUBJECT = @message_subject
             ,   @BODY = @message_body
             ,   @BODY_FORMAT    = 'HTML';
